@@ -1,0 +1,27 @@
+/* 
+========================================================================================================
+Name : 19c.c
+Author : Rinku Kumari Pareta
+Description : Create a FIFO file by
+              c. use strace command to find out, which command (mknod or mkfifo) is better.
+Date: 1 Oct, 2025.
+========================================================================================================
+*/
+
+/*
+Terminal:
+
+ base  diksha  cd ~/Desktop/SSII/19
+ 
+First command:
+base  diksha  strace mknod myfifo3 p
+
+mknodat(AT_FDCWD, "myfifo2", S_IFIFO|0666) = 0
+
+second command :
+
+base  diksha  strace mkfifo myfifo3 p
+
+mknodat(AT_FDCWD, "myfifo3", S_IFIFO|0666) = 0
+
+*/

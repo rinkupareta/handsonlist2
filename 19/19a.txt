@@ -1,0 +1,20 @@
+/* 
+========================================================================================================
+Name : 19a.c
+Author : Rinku Kumari Pareta
+Description : Create a FIFO file by
+              a. mknod command
+Date: 1 Oct, 2025.
+========================================================================================================
+*/
+
+/*
+Terminal:
+
+base  diksha  cd ~/Desktop/SSII/19
+               
+ [~/Desktop/SSII/19]
+ base  diksha  mknod myfifo p      
+               
+*/
+

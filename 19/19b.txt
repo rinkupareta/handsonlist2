@@ -1,0 +1,20 @@
+/* 
+========================================================================================================
+Name : 19b.c
+Author : Rinku Kumari Pareta
+Description : Create a FIFO file by
+              b. mkfifo command
+Date: 1 Oct, 2025.
+========================================================================================================
+*/
+ 
+/*
+Terminal:
+base  diksha  cd ~/Desktop/SSII/19
+               
+ [~/Desktop/SSII/19]
+ base  diksha  mkfifo myfifo5
+               
+ [~/Desktop/SSII/19]
+ base  diksha  
+*/
